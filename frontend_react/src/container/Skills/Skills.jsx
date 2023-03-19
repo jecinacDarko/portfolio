@@ -9,7 +9,6 @@ const Skills = () => {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    console.log(skills);
     const query = '*[_type == "skills"]';
     client.fetch(query).then((data) => {
       setSkills(data);
