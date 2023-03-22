@@ -4,7 +4,6 @@ import imageUrlBuilder from '@sanity/image-url';
 const projectId = process.env.REACT_APP_SANITY_PROJECT_ID;
 const token = process.env.REACT_APP_SANITY_TOKEN;
 
-
 export const client = sanityClient({
   projectId: projectId,
   dataset: 'production',

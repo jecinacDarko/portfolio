@@ -50,10 +50,12 @@ const Skills = () => {
                   <p className="titlebold">Radio As FM</p>
                   <br />
                   <p className="paragraph">
-                  As a Music Producer, I have produced music and advertising material, 
-                  managed and edited multiple radio shows, and led various artist projects. 
-                  I have been fortunate enough to receive support and have worked with 
-                  notable names in the music industry.
+                  Throughout my diverse and accomplished career, I have skillfully produced music and advertising 
+                  materials that resonate with audiences. I have hosted numerous radio shows, with some continuing 
+                  to entertain listeners even after 15 years on air. I have successfully led various artist projects,
+                   garnering support and collaboration from prominent names in the music industry. 
+                   My experience extends to organizing large-scale events, as well as working as a music artist and DJ,
+                    showcasing my versatility and passion for the creative arts.
                   </p>
                 </motion.div>
               </>
@@ -74,13 +76,14 @@ const Skills = () => {
                   <p className="titlebold">SALT - Applied Technology</p>
                   <br />
                   <p className="paragraph">
-                  has completed a highly intensive Full-Stack training program at the 
-                  School of Applied Technology in Stockholm. Upon completion, he was hired 
-                  full-time by Applied Technology as a Software Developer Consultant.
-                  As a Software Developer Consultant at Applied Technology, I have worked 
-                  with a development team, built user-centric websites and applications, 
-                  expanded my knowledge of new technologies, and performed UX/UI 
-                  and application testing.
+                  I successfully completed a highly intensive Full-Stack training program 
+                  at the School of Applied Technology in Stockholm, which led to a full-time 
+                  position as a Software Developer Consultant with Applied Technology. 
+                  In this role, I collaborated closely with the wider development team to 
+                  build user-focused websites and applications. Committed to staying current 
+                  with the latest industry trends and technologies, I have consistently delivered 
+                  cutting-edge solutions. To ensure high-quality results and a seamless user experience, 
+                  I have diligently conducted thorough UX/UI and application testing throughout my projects.
                   </p>
                 </motion.div>
               </>
@@ -101,10 +104,37 @@ const Skills = () => {
                   <p className="titlebold">Brightstar Corp</p>
                   <br />
                   <p className="paragraph">
-                  I have had direct communication with Telenor's supply chain management team, 
-                  where I was responsible for managing IMEI/serial number databases and ensuring 
-                  their synchronization between Brightstar's and Telenor's systems. Additionally, 
-                  I played a key role in preparing for device launches. 
+                  In my role, I maintained direct communication with Telenor's supply chain management, 
+                  effectively organizing and planning ahead for various initiatives. I was responsible 
+                  for managing IMEI/serial number databases, ensuring seamless synchronization between 
+                  Brightstar's and Telenor's systems. Additionally, I successfully prepared and executed 
+                  new device launches for multiple clients, including Telenor Sweden, Telenor Denmark, 
+                  and HI3G, demonstrating my ability to manage complex projects and cater to diverse client needs.
+                  </p>
+                </motion.div>
+              </>
+            </motion.div>
+          </motion.div>
+          <motion.div className="experience">
+            <div className="experience-year">
+              <p className="titlebold">2022</p>
+            </div>
+            <motion.div className="experience-info">
+              <>
+                <motion.div
+                  whileInView={{ opacity: [0, 1] }}
+                  transition={{ duration: 0.5 }}
+                  className="experience-content"
+                >
+                  <h4 className="titlebold">Freelance Web Developer / Graphic & UI UX Designer</h4>
+                  <p className="titlebold">Self Employed</p>
+                  <br />
+                  <p className="paragraph">
+                  With a wealth of experience in web development and related skills, I have honed my expertise 
+                  in using various software tools and technologies to create exceptional, high-quality work. 
+                  My strong focus on client satisfaction has consistently driven me to deliver excellent results,
+                   even when navigating complex and challenging projects. My comprehensive skillset and commitment 
+                   to excellence have allowed me to exceed expectations and meet the diverse needs of my clients.
                   </p>
                 </motion.div>
               </>
